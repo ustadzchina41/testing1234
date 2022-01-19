@@ -7,10 +7,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
+### Fixed
+- Bump buildnumber during release (see [issue 227](https://gitlab.ilabt.imec.be/rml/proc/rmlmapper-java/-/issues/227))
+
 ## [4.14.3] - 2022-01-13
 
 ### Fixed
 - Github CLI needs to specify a repo to create a release.
+
+### Changed
+- CSVRecordFactory: Replace Apache CSV library with OpenCSV to be able to differentiate between empty string and null (see [issue 140](https://github.com/RMLio/rmlmapper-java/issues/140))
+
+### Added
+- JSONRecordFactory: support JSONL files (see [issue 221](https://gitlab.ilabt.imec.be/rml/proc/rmlmapper-java/-/issues/221)).
 
 ## [4.14.2] - 2022-01-13
 
